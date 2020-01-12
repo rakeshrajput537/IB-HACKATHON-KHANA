@@ -90,7 +90,7 @@ li{
 } 
 .item{
   position: absolute;
-  z-index: 2;
+  z-index: -1;
   width: 98%;
   height: 95%;
   top: 0;
@@ -113,7 +113,6 @@ li:nth-child(3n+2) .item{
 }
 .product{
   position: absolute;
-  z-index: 3;
   width: 88%;
   height: 91%;
   top: 0;
@@ -121,6 +120,8 @@ li:nth-child(3n+2) .item{
   border-radius: 1.2vw;
   background:#001a23;
   overflow: hidden;
+  display: inline-block;
+
 }
 h2, p, img {
   position: absolute;
